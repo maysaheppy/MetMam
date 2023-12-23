@@ -1,0 +1,191 @@
+.text-body{
+    color: #9C581D;
+}
+
+.jumbotron{
+    background-image: url(image/header.png); 
+    background-size: 100%;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.navbar{
+    width: fit-content;
+    height: 80px;
+}
+
+.lokasi {
+    color: #FFA759;
+    background-color: #F8FAFC;
+    border-radius: 20px;
+    width: 132px;
+    height: 30px;
+}
+
+.lokasi i {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.topnav-right{
+    position: relative;
+    background-color: #F8FAFC;
+    border-radius: 40px 0px 0px 40px;
+    width: 180px;
+    font-size: 32px;
+    left: 764px;
+    float: right;
+}
+
+
+.konten{
+    background-color: #FFE9D6;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.konten h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.searchbar input{
+    padding: 8px;
+    padding-left: 35px;
+    margin-right: 8px;
+    width: 500px;
+    height: 53px;
+    border: 2px, solid #000;
+    border-radius: 39px;
+    font-size: 27px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchbar a{
+    position: absolute;
+    font-size: 28px;
+    right: 15px;
+}
+
+.searchbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 456px;
+}
+
+.searchbar ::placeholder{
+    opacity: 0.5;
+}
+
+.cari {
+    left: 100px;
+}
+
+.btn{
+    position: relative;
+    width: 223px;
+    height: 223px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0%;
+}
+
+.top-menu img{
+    width: 223px;
+    height: 223px;
+    z-index: 1;
+}
+
+.rincian-top-menu{
+    background-color: rgba(215,77,77,0.7);
+    width: 223px;
+    height: 65px;
+    z-index: 2;
+    position: relative;
+    bottom: 65px;
+    border-radius: 40% 40% 5px 5px;
+}
+
+.rincian-top-menu p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.Kedai{
+    top: 28px;
+}
+
+.Nama{
+    z-index: 4;
+    position: relative;
+    left: 12px;
+    top: 28px;
+    font-size: small;
+    text-align: left;
+}
+
+.Harga{
+    z-index: 5;
+    position: relative;
+    bottom: 6px;
+
+    right: 12px;
+    font-size: small;
+    text-align: right;
+}
+
+.rating {
+    position: relative;
+    z-index: 3;
+    bottom: 144px;
+}
+
+.rating img {
+    width: 124px; 
+    height: 24px;
+}
+
+.seller {
+    position: relative;
+    z-index: 3;
+    left: 4px;
+    bottom: 424px;
+}
+
+.seller img {
+    width: 164px;
+}
+
+
+.thumb {
+    position: relative;
+    z-index: 3;
+    left: 100px;
+    bottom: 388px;
+    background: none;
+}
+
+.thumb img {
+    width: 60px;
+}
+
+.footer{
+    background-color: #FFA759;
+}
+
+.footer h6{
+    color: #334155;
+}
+
+.social {
+    font-size: 36px;
+    color: #000;
+    
+}
